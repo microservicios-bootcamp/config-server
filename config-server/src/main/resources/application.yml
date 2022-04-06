@@ -9,7 +9,7 @@ spring:
           uri: https://github.com/NttData-Project/config-server.git
           searchPaths: config-data
           default-label: "main"
-          
+
 management:
   endpoints:
     web:
