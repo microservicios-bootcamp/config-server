@@ -1,8 +1,17 @@
 server:
   port: 8081
+
 spring:
   cloud:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/NttData-Project/config-server.git
+          searchPaths: config-data
+          default-label: "main"
+          
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
