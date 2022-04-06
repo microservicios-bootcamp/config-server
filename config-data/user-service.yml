@@ -4,7 +4,9 @@ server:
     include-message: always
     include-binding-errors: always
 
-
+spring:
+  datasource:
+    uri: mongodb+srv://sa:<password>@cluster0.iyabt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 management:
   endpoints:
     web:
