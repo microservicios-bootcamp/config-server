@@ -4,6 +4,15 @@ server:
     include-message: always
     include-binding-errors: always
 
+spring:
+  datasource:
+    uri: mongodb+srv://sa:R35rPvm0XFgR8dIh@walter.iyabt.mongodb.net/bootcamp?retryWrites=true&w=majority
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
 management:
   endpoints:
     web:
