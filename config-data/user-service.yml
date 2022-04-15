@@ -3,7 +3,8 @@ server:
   error:
     include-message: always
     include-binding-errors: always
-
+pasive:
+  card: "http://localhost:8022"
 resilience4j:
   circuitbreaker:
     instances:
