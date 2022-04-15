@@ -3,15 +3,20 @@ server:
   error:
     include-message: always
     include-binding-errors: always
-resilience4j.circuitbreaker:
-  instances:
-    pasive-card-service:
-      failureRateThreshold: 50
-      minimumNumberOfCalls: 10
-      slidingWindowType: TIME_BASED
-      slidingWindowSize: 10
-      waitDurationInOpenState: 10s
-      permittedNumberOfCallsInHalfOpenState: 5
+resilience4j:
+  circuitbreaker:
+    instances:
+      pasive-card-service:
+        failureRateThreshold: 50
+        minimumNumberOfCalls: 10
+        slidingWindowType: TIME_BASED
+        slidingWindowSize: 10
+        waitDurationInOpenState: 10s
+        permittedNumberOfCallsInHalfOpenState: 5
+  timelimiter:
+    instances:
+      pasive-card-service:
+        timeout-duration: 2s
 spring:
   data:
     mongodb:
