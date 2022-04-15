@@ -4,6 +4,9 @@ server:
     include-message: always
     include-binding-errors: always
 
+pasive:
+  card: "http://localhost:8022"
+
 spring:
   data:
     mongodb:
