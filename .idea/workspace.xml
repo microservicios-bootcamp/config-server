@@ -30,9 +30,31 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in config-server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="config-server" />
       <extension name="coverage">
@@ -70,6 +92,7 @@
       <list>
         <item itemvalue="Spring Boot.EurekaServerApplication" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="JUnit.All in config-server" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +107,18 @@
       <workItem from="1649428569353" duration="2480000" />
       <workItem from="1649435038561" duration="1919000" />
       <workItem from="1649512603196" duration="1285000" />
-      <workItem from="1649540534701" duration="669000" />
+      <workItem from="1649540534701" duration="1370000" />
+      <workItem from="1649596841560" duration="1220000" />
+      <workItem from="1649633288931" duration="2216000" />
+      <workItem from="1649638640753" duration="721000" />
+      <workItem from="1649640167313" duration="705000" />
+      <workItem from="1649645973786" duration="1674000" />
+      <workItem from="1649678890927" duration="1282000" />
+      <workItem from="1649686905261" duration="672000" />
+      <workItem from="1649786755421" duration="626000" />
+      <workItem from="1649788204593" duration="628000" />
+      <workItem from="1649867167061" duration="757000" />
+      <workItem from="1649973259718" duration="1545000" />
     </task>
     <servers />
   </component>
