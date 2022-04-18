@@ -37,17 +37,6 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in config-server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="config-server" />
       <option name="PACKAGE_NAME" value="" />
@@ -124,7 +113,8 @@
       <workItem from="1650035605542" duration="3768000" />
       <workItem from="1650220761010" duration="604000" />
       <workItem from="1650231035054" duration="1549000" />
-      <workItem from="1650284061623" duration="1291000" />
+      <workItem from="1650284061623" duration="2492000" />
+      <workItem from="1650292525773" duration="646000" />
     </task>
     <servers />
   </component>
