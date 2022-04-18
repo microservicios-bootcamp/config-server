@@ -1,16 +1,12 @@
 server:
-  port: 8092
+  port: 8032
   error:
     include-message: always
     include-binding-errors: always
-pasive:
-  card: "http://localhost:8022"
-active:
-  card: "http://localhost:8032"
 resilience4j:
   circuitbreaker:
     instances:
-      user-service:
+      pasive-card-service:
         failureRateThreshold: 50
         minimumNumberOfCalls: 10
         slidingWindowType: TIME_BASED
@@ -19,9 +15,8 @@ resilience4j:
         permittedNumberOfCallsInHalfOpenState: 5
   timelimiter:
     instances:
-      user-service:
+      pasive-card-service:
         timeout-duration: 2s
-
 spring:
   data:
     mongodb:
