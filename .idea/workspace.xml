@@ -118,6 +118,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in config-server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="config-server" />
       <option name="PACKAGE_NAME" value="" />
@@ -200,6 +211,7 @@
       <workItem from="1650392964147" duration="975000" />
       <workItem from="1650395765801" duration="1090000" />
       <workItem from="1650398552997" duration="429000" />
+      <workItem from="1650403724029" duration="316000" />
     </task>
     <servers />
   </component>
