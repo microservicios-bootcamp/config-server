@@ -3,10 +3,6 @@ server:
   error:
     include-message: always
     include-binding-errors: always
-pasive:
-  card: "http://localhost:8022"
-active:
-  card: "http://localhost:8032"
 resilience4j:
   circuitbreaker:
     instances:
