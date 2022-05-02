@@ -21,7 +21,7 @@ resilience4j:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://sa:R35rPvm0XFgR8dIh@walter.iyabt.mongodb.net/bootcamp?retryWrites=true&w=majority
+      uri: mongodb+srv://nttdata:nttdata@nttdata.zm6n3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 eureka:
   client:
