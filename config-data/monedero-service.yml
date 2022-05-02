@@ -1,0 +1,35 @@
+server:
+  port: 8096
+  error:
+    include-message: always
+    include-binding-errors: always
+resilience4j:
+  circuitbreaker:
+    instances:
+      user-service:
+        failureRateThreshold: 50
+        minimumNumberOfCalls: 10
+        slidingWindowType: TIME_BASED
+        slidingWindowSize: 10
+        waitDurationInOpenState: 10s
+        permittedNumberOfCallsInHalfOpenState: 5
+  timelimiter:
+    instances:
+      user-service:
+        timeout-duration: 2s
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://nttdata:nttdata@nttdata.zm6n3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
